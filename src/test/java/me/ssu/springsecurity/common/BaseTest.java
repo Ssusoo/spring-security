@@ -13,4 +13,7 @@ public class BaseTest {
 
     @Autowired
     protected MockMvc mockMvc;
+
+    @Autowired
+    protected AppProperties appProperties;
 }

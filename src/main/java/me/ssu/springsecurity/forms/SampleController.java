@@ -1,5 +1,6 @@
-package me.ssu.springsecurity.index;
+package me.ssu.springsecurity.forms;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,7 +10,7 @@ import java.security.Principal;
 
 @Controller
 @RequestMapping(value = "/")
-public class IndexController {
+public class SampleController {
 
     // TODO Home Page, 둘 다 접근 가능
     @GetMapping

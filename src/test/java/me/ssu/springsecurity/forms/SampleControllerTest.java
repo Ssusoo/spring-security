@@ -1,4 +1,4 @@
-package me.ssu.springsecurity.index;
+package me.ssu.springsecurity.forms;
 
 import me.ssu.springsecurity.common.BaseTest;
 import me.ssu.springsecurity.common.TestWithAdmin;
@@ -11,7 +11,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-class IndexControllerTest extends BaseTest {
+class SampleControllerTest extends BaseTest {
 
     // TODO 스프링 시큐리티 URL-1(Index Page, Anonymous)
     @Test
